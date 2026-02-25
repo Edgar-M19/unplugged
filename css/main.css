@@ -132,12 +132,20 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
 }
 
-   /*------------------Base Header - Footer Styles-------------------*/
+/*------------------Base Header - Footer Styles-------------------*/
   
   header {
     display: flex;
@@ -152,6 +160,10 @@ address {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+
+  header figure {
+    width: 60%;
   }
 
   .header-divider {
@@ -218,6 +230,10 @@ footer .copyright {
 /*-Hero Area--*/
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }

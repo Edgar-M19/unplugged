@@ -86,6 +86,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* General Styles */
+
 html {
 	font-size: 1rem;
 }
@@ -191,6 +194,7 @@ figure {
     flex-direction: column;
     align-items:center;
     text-align: center;
+    background-color: #202322;
   }
 
   header nav ul li {
@@ -245,7 +249,7 @@ footer .copyright {
   line-height: 1.2;
 }
 
-/*-Aside--*/
+/* Aside */
 
 aside {
   background-color: #527158;
@@ -279,7 +283,8 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/*-Features--*/
+/* Features */
+
 .features {
   background: url('..img/unplugged-retreat-features.jpg');
   background-size: cover;
@@ -308,7 +313,12 @@ input[type=button] {
   margin: 0;
 }
 
-/*-Reviews--*/
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+/* Reviews */
 
 .reviews {
   background-color: #2a423a;
@@ -372,7 +382,7 @@ input[type=button] {
   justify-content: center;
 }
 
-.faq .container-wrapper {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -484,7 +494,9 @@ input[type=button] {
 
 @media only screen and (min-width: 768px) {
   /* Tablet Styles */
+
   /* General Styles */
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -527,6 +539,10 @@ input[type=button] {
   }
 
 /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -720,6 +736,7 @@ input[type=button] {
   }
 
   /* Features */
+  
   .features h2 {
     width: 90%;
   }
